@@ -119,12 +119,7 @@ var Calculator = {
             this.valueDisplay += num;
             this.update();
         }
-        /* if (typeof this.valueDisplay == "number"){
-            this.cleanDisplay();
-            Calculator.valueDisplay = "";
-            this.valueDisplay += num;
-            this.update();
-        } */
+        
     },
 
     assignOperation: function(op){
