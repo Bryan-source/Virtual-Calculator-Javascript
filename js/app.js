@@ -118,8 +118,7 @@ var Calculator = {
             Calculator.valueDisplay = "";
             this.valueDisplay += num;
             this.update();
-        }
-        
+        }        
     },
 
     assignOperation: function(op){
@@ -172,10 +171,7 @@ var Calculator = {
             this.display.innerHTML = this.valueDisplay.toExponential(4);
         }else{
             this.display.innerHTML = this.valueDisplay;
-        }
-        
-        console.log(this.valueDisplay.length);
-        
+        }                
     },
 
     eventSizeButton: function(event){
@@ -184,10 +180,7 @@ var Calculator = {
 
     eventReturnSizeButton: function(event){
         increaseSizeBtn(event.target);
-    },
-
-    //Print number
-
+    },   
 
 }
 

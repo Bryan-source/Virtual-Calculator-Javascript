@@ -118,16 +118,16 @@ body{
   font-weight: bold;
 }
 
-
-
 .titulo-container{
   width: 100%;
   height: 15%;
-  color: #b42a17;
+  color: #17b456;
   border-radius: 1rem;
+  text-align: center;
+  margin-top: auto;
 }
 .titulo-container h1{
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: 'Luckiest Guy', cursive;
   text-shadow: 2px 2px 5px #000;
 }
